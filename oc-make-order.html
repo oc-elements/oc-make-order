@@ -1,0 +1,36 @@
+<link rel="import" href="../polymer/polymer-element.html">
+
+<dom-module id="oc-make-order">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello [[prop1]]!</h2>
+  </template>
+
+  <script>
+    /**
+     * `oc-make-order`
+     * Element for dsiplaying order details for payment
+     *
+     * @customElement
+     * @polymer
+     * @demo demo/index.html
+     */
+    class OcMakeOrder extends Polymer.Element {
+      static get is() { return 'oc-make-order'; }
+      static get properties() {
+        return {
+          prop1: {
+            type: String,
+            value: 'oc-make-order'
+          }
+        };
+      }
+    }
+
+    window.customElements.define(OcMakeOrder.is, OcMakeOrder);
+  </script>
+</dom-module>
