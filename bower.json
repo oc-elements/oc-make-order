@@ -3,7 +3,14 @@
   "description": "Element for dsiplaying order details for payment",
   "main": "oc-make-order.html",
   "dependencies": {
-    "polymer": "Polymer/polymer#^2.0.0"
+    "polymer": "Polymer/polymer#^2.0.0",
+    "iron-form": "PolymerElements/iron-form#^2.0.1",
+    "paper-dropdown-menu": "PolymerElements/paper-dropdown-menu#^2.0.0",
+    "neon-animation": "PolymerElements/neon-animation#^2.0.1",
+    "oc-accounts-api": "git://github.com/oc-elements/oc-accounts-api#2.x",
+    "paper-item": "PolymerElements/paper-item#^2.0.0",
+    "paper-listbox": "PolymerElements/paper-listbox#^2.0.0",
+    "web-animations-js": "web-animations/web-animations-js#^2.2"
   },
   "devDependencies": {
     "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^2.0.0",
